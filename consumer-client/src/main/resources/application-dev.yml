@@ -1,0 +1,15 @@
+odps:
+  access_id: LTAIzroi4Pov5yoE
+  access_key: pDMuUKhsLjwBH9b0HuseYIEeAprzsO
+  endpoint: http://service.cn.maxcompute.aliyun.com/api
+  project: hqbs_dev
+
+hbase:
+  zkAddress: hb-proxy-pub-bp13bni1171igi7br-001.hbase.rds.aliyuncs.com:2181,hb-proxy-pub-bp13bni1171igi7br-002.hbase.rds.aliyuncs.com:2181,hb-proxy-pub-bp13bni1171igi7br-003.hbase.rds.aliyuncs.com:2181
+
+kafka:
+  topics: log_hqbs_general
+  groupId: CID_log_hqbs_general
+  consumer:
+    poll:
+      timeount: 1000
